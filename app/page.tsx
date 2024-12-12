@@ -4,6 +4,8 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Technologies from "../components/Technologies";
 import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const page = () => {
   return (
@@ -17,7 +19,9 @@ const page = () => {
         <Hero />
         <About />
         <Technologies />
-        <Experience/>
+        <Experience />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );
