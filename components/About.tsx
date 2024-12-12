@@ -17,7 +17,18 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src="/about.jpg" alt="about" />
+            <video
+              className="rounded-2xl"
+              src="/about.mp4"
+              loop
+              autoPlay
+              muted
+              style={{
+                width: "500px",
+                height: "500px",
+                objectFit: "cover",
+              }}
+            ></video>
           </div>
         </motion.div>
         <motion.div
@@ -27,7 +38,7 @@ const About = () => {
           className="w-full lg:w-1/2 "
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6 tracking-wider">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
       </div>

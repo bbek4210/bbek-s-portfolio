@@ -1,47 +1,47 @@
-const project1 = "/projects/project-1.jpg";
+const project1 = "/projects/project-1.png";
 const project2 = "/projects/project-2.jpg";
 const project3 = "/projects/project-3.jpg";
 const project4 = "/projects/project-4.jpg";
 
+export const HERO_CONTENT = `A results-driven frontend developer building intuitive and efficient web applications. Skilled in React and Next.js, I’m passionate about delivering seamless user experiences and staying ahead in the fast-evolving world of web development.Always eager to learn and innovate. 🌟`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate and dedicated frontend developer focused on creating engaging and user-friendly web interfaces. With 1 year of professional experience, I have worked with technologies like React and Next.js. My journey in web development began with a fascination for design and interactivity, and it has evolved into a career where I continuously strive to enhance my skills and embrace new challenges. I thrive in collaborative environments and enjoy solving problems to deliver high-quality user experiences. Outside of coding, I enjoy staying active, exploring new technologies, and working on personal projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "2023 - 2024",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Hyteno Pvt. Ltd",
+    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs and Graphql. Implemented responsive designs and optimized frontend performance.`,
+    technologies: [
+      "Nextjs",
+      "Tailwind",
+      "Zod",
+      "Typescript",
+      "Axios",
+      "Tanstack",
+      "Graphql",
+    ],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "FrontEnd Developer",
+    company: "SkillPrompt",
+    description: `Developed and maintained web applications using Nextjs, Typescript. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: ["Typescript", "Nextjs", "Tailwind", "Tanstack"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "FrontEnd Developer",
+    company: "Alpha beta International",
+    description: `Contributed to the development of web applications using JavaScript, React.js. Mostly did the designing of the web application using latest technologies. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["Reactjs", "CSS", "REST", "Zod"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Maison & Architecture",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",

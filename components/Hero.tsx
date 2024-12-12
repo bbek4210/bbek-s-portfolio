@@ -40,7 +40,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="max-w-xl py-6 my-2 font-light tracking-tighter"
+              className="max-w-xl py-6 my-2 font-light tracking-wider"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -52,7 +52,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src="/kevinRushProfile.jpg"
+              src="/BibekProfile.jpg"
               alt="profile"
             />
           </div>
