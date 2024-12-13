@@ -6,7 +6,7 @@ const project5 = "/projects/project-5.png";
 
 export const HERO_CONTENT = `A results-driven frontend developer building intuitive and efficient web applications. Skilled in React and Next.js, I’m passionate about delivering seamless user experiences and staying ahead in the fast-evolving world of web development.Always eager to learn and innovate. 🌟`;
 
-export const ABOUT_TEXT = `I am a passionate and dedicated frontend developer focused on creating engaging and user-friendly web interfaces. With 1 year of professional experience, I have worked with technologies like React and Next.js. My journey in web development began with a fascination for design and interactivity, and it has evolved into a career where I continuously strive to enhance my skills and embrace new challenges. I thrive in collaborative environments and enjoy solving problems to deliver high-quality user experiences. Outside of coding, I enjoy staying active, exploring new technologies, and working on personal projects.`;
+export const ABOUT_TEXT = `I am a passionate and dedicated frontend developer focused on creating engaging and user-friendly web interfaces. I have worked with technologies like React and Next.js. My journey in web development began with a fascination for design and interactivity, and it has evolved into a career where I continuously strive to enhance my skills and embrace new challenges. I thrive in collaborative environments and enjoy solving problems to deliver high-quality user experiences. Outside of coding, I enjoy staying active, exploring new technologies, and working on personal projects.`;
 
 export const EXPERIENCES = [
   {
@@ -43,9 +43,10 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Maison & Architecture",
+    link: "https://maison-architecture.com/",
     image: project1,
     description:
-      "Maison & Architecture is a platform that connects individuals with top professionals in the architecture and construction sectors. It offers a curated selection of experts, innovative products, and inspiring 360-degree project showcases, guiding users from concept to completion.",
+      "Maison & Architecture is a platform that connects individuals with top professionals in the architecture and construction sectors. It offers a curated selection of experts, innovative products, and inspiring 360-degree project showcases, guiding users from concept to completion with client ,entreprises and admin panels.",
     technologies: [
       "Nextjs",
       "TailwindCss",
@@ -59,6 +60,7 @@ export const PROJECTS = [
   },
   {
     title: "Event Zone",
+    link: "https://event-fr.vercel.app/en",
     image: project2,
     description:
       "Eventzone is a comprehensive platform designed to streamline event management for both attendees and organizers. Users can explore a diverse array of upcoming events across various categories and venues, ensuring a tailored experience for every interest. ",
@@ -74,6 +76,7 @@ export const PROJECTS = [
   {
     title: "HourTag",
     image: project3,
+    link: "https://hourtag.com/",
     description:
       "HourTag is a streamlined time-tracking application designed to enhance team productivity by simplifying the monitoring of work hours across various projects. Its clean and minimalistic interface allows users to efficiently log hours, providing managers with clear insights into team performance and project allocation..",
     technologies: [
@@ -89,6 +92,7 @@ export const PROJECTS = [
   {
     title: "Centiano",
     image: project4,
+    link: "https://centiano.com/",
     description:
       "Centiano is an ethical fashion brand based in Paris, specializing in high-quality women's dresses that embody the elegance of Parisian style.The brand seamlessly blends French sophistication with innovative design, offering timeless, eco-friendly pieces that allow customers to look good while making a positive impact. ",
     technologies: ["Reactjs", "TailwindCss", "Hydrogen", "Typescript"],
@@ -96,6 +100,7 @@ export const PROJECTS = [
   {
     title: "FintechHop",
     image: project5,
+    link: "https://fintechhop.com/",
     description:
       "FintechHop is a comprehensive moving service provider in Nepal, offering tailored solutions for various relocation needs. Their services include private moves, senior relocations, household liquidations, office transitions, company moves, clearing out, and bulky waste disposal. ",
     technologies: [
