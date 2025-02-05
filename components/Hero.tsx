@@ -32,7 +32,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="text-3xl tracking-tight text-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text lg:text-left"
+              className="text-3xl tracking-tight text-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text lg:text-left w-full"
             >
               FrontEnd Developer
             </motion.span>
