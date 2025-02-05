@@ -16,24 +16,25 @@ const Navbar: React.FC = () => {
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl cursor-pointer ">
+        <a href="https://github.com/bbek4210" target="_blank">
+          <FaGithub className="hover:text-yellow-700" />
+        </a>
         <a
           href="https://www.linkedin.com/in/bibek-bhandari-233910268/"
           target="_blank"
         >
           <FaLinkedinIn className="hover:text-red-700" />
         </a>
-        <a
+        {/* <a
           href="https://www.facebook.com/profile.php?id=100047717505359"
           target="_blank"
         >
           <FaFacebook className="hover:text-purple-700" />{" "}
-        </a>
-        <a href="https://github.com/bbek4210" target="_blank">
-          <FaGithub className="hover:text-yellow-700" />
-        </a>
-        <a href="https://www.instagram.com/bibek_bhandari_10/" target="_blank">
+        </a> */}
+
+        {/* <a href="https://www.instagram.com/bibek_bhandari_10/" target="_blank">
           <FaInstagram className="hover:text-blue-700" />
-        </a>
+        </a> */}
       </div>
     </nav>
   );
