@@ -3,6 +3,7 @@ const project2 = "/projects/project-2.png";
 const project3 = "/projects/project-3.png";
 const project4 = "/projects/project-4.png";
 const project5 = "/projects/project-5.png";
+const project6 = "/projects/project-6.png";
 
 export const HERO_CONTENT = `A results-driven frontend developer building intuitive and efficient web applications. Skilled in React and Next.js, I’m passionate about delivering seamless user experiences and staying ahead in the fast-evolving world of web development.Always eager to learn and innovate. 🌟`;
 
@@ -109,6 +110,22 @@ export const PROJECTS = [
       "Nextjs",
       "Typescript",
       "React-hook-form",
+    ],
+  },
+
+  {
+    title: "Zefe- A telegram Mini App for instant event networking",
+    image: project6,
+    link: "https://zefe.xyz/",
+    description:
+      "Zefe is a telegram mini app for instant event networking. It allows users to connect with like-minded individuals, collaborate on projects, and make new connections in the tech community.(Only accesible on telegram app.) ",
+    technologies: [
+      "Nextjs",
+      "TailwindCss",
+      "Typescript",
+      "React-hook-form",
+      "Zod",
+      "Rest-APIs",
     ],
   },
 ];
